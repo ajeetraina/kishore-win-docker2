@@ -15,4 +15,4 @@ docker build -t <imagerepo>/<imagename> .
 # Running the Docker Container
 
 ```
-docker run --rm <dockerimage>
+docker run -it <imagename> python read.py -f test1.json
